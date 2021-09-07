@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'UniNeueRegular';
+  src: url(./UniNeueRegular.eot);
+  src: url(./UniNeueRegular.eot?#iefix) format('embedded-opentype'),
+       url(./UniNeueRegular.otf) format('otf'),
+       url(./UniNeueRegular.svg#UniNeueRegular) format('svg'),
+       url(./UniNeueRegular.ttf) format('truetype'),
+       url(./UniNeueRegular.woff) format('woff'),
+       url(./UniNeueRegular.woff2) format('woff2');
+}

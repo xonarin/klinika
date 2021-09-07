@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'UniNeue';
+    src: url('../fonts/UniNeue/Regular/UniNeueRegular.eot');
+    src: url('../fonts/UniNeue/Regular/UniNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeue/Regular/UniNeueRegular.woff2') format('woff2'),
+        url('../fonts/UniNeue/Regular/UniNeueRegular.woff') format('woff'),
+        url('../fonts/UniNeue/Regular/UniNeueRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UniNeue';
+    src: url('../fonts/UniNeue/Bold/UniNeueBold.eot');
+    src: url('../fonts/UniNeue/Bold/UniNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeue/Bold/UniNeueBold.woff2') format('woff2'),
+        url('../fonts/UniNeue/Bold/UniNeueBold.woff') format('woff'),
+        url('../fonts/UniNeue/Bold/UniNeueBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UniNeue';
+    src: url('../fonts/UniNeue/Light/UniNeueLight.eot');
+    src: url('../fonts/UniNeue/Light/UniNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeue/Light/UniNeueLight.woff2') format('woff2'),
+        url('../fonts/UniNeue/Light/UniNeueLight.woff') format('woff'),
+        url('../fonts/UniNeue/Light/UniNeueLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UniNeueBook';
+    src: url('../fonts/UniNeue/Book/UniNeueBook.eot');
+    src: url('../fonts/UniNeue/Book/UniNeueBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeue/Book/UniNeueBook.woff2') format('woff2'),
+        url('../fonts/UniNeue/Book/UniNeueBook.woff') format('woff'),
+        url('../fonts/UniNeue/Book/UniNeueBook.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PTRootUI';
+    src: url('../fonts/PTRootUI/Bold/Ptrootuibold.eot');
+    src: url('../fonts/PTRootUI/Bold/Ptrootuibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PTRootUI/Bold/Ptrootuibold.woff2') format('woff2'),
+        url('../fonts/PTRootUI/Bold/Ptrootuibold.woff') format('woff'),
+        url('../fonts/PTRootUI/Bold/Ptrootuibold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PTRootUI';
+    src: url('../fonts/PTRootUI/Regular/Ptrootui.eot');
+    src: url('../fonts/PTRootUI/Regular/Ptrootui.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PTRootUI/Regular/Ptrootui.woff2') format('woff2'),
+        url('../fonts/PTRootUI/Regular/Ptrootui.woff') format('woff'),
+        url('../fonts/PTRootUI/Regular/Ptrootui.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarckScript';
+    src: url('../fonts/MarckScript/Regular/MarckScript.eot');
+    src: url('../fonts/MarckScript/Regular/MarckScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MarckScript/Regular/MarckScript.woff2') format('woff2'),
+        url('../fonts/MarckScript/Regular/MarckScript.woff') format('woff'),
+        url('../fonts/MarckScript/Regular/MarckScript.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'UniNeue', Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+img {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+}
