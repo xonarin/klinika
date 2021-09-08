@@ -25,15 +25,20 @@ gulp.task('style', function () {
       .pipe(gulp.dest('./build/css/'));
   });
   
-gulp.task('image', function(){
-    gulp.src('./source/image/**/*.{png,jpg,svg}')
+  gulp.task('image', function(){
+    gulp.src('source/image/**/*.{png,jpg,svg}')
 		.pipe(imagemin([
 			imagemin.gifsicle({interlaced: true}),
-			imagemin.mozjpeg({quality: 95, progressive: true}),
-			imagemin.optipng({optimizationLevel: 1}),
+			imagemin.mozjpeg({quality: 75, progressive: true}),
+			imagemin.optipng({optimizationLevel: 3}),
 		]))
-    .pipe(webp({quality: 75}))
     .pipe(gulp.dest('./build/image'));
+})
+
+gulp.task('webp', function(){
+  return gulp.src('./source/image/**/*.{png,jpg,svg}')
+  .pipe(webp({quality: 75}))
+  .pipe(gulp.dest('./build/image'));
 })
 
 
@@ -54,4 +59,4 @@ gulp.task('watch', function(){
     gulp.watch('./source/scss/*.scss',  gulp.parallel('style'))
 })
 
-gulp.task('build', gulp.parallel('fonts', 'style', 'image', 'compressjs', 'watch'));
+gulp.task('build', gulp.parallel('fonts', 'style', 'image', 'webp', 'compressjs', 'watch'));
