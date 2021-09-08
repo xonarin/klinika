@@ -1,0 +1,58 @@
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background: url('/build/image/hero-back.png') 0 0 no-repeat;
+    background-size: cover;
+    z-index: 2;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 202px;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+    }
+
+
+    &-wrap {
+        position: relative;
+        padding: 295px 0 155px 0;
+    }
+
+    &__title {
+        font-size: 59px;
+        font-weight: 700;
+        line-height: 64.9px;
+        margin-bottom: 15px;
+
+        &-mini {
+            font-size: 28px;
+            color: #414141;
+            color: #0a0d1d;
+            margin-bottom: 55px;
+        }
+    }
+
+    &__btn {
+        max-width: 360px;
+
+        &-accept {
+            display: inline-block;
+            color: #3b3b3b;
+            margin-top: 15px;
+            text-align: center;
+            padding: 0 40px;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        right: -40px;
+        bottom: -108px;
+        z-index: -1;
+    }
+}
