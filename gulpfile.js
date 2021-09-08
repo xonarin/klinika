@@ -25,28 +25,17 @@ gulp.task('style', function () {
       .pipe(gulp.dest('./build/css/'));
   });
   
-gulp.task('image2', function(){
+gulp.task('image', function(){
     gulp.src('./source/image/**/*.{png,jpg,svg}')
 		.pipe(imagemin([
 			imagemin.gifsicle({interlaced: true}),
-			imagemin.mozjpeg({quality: 75, progressive: true}),
-			imagemin.optipng({optimizationLevel: 3}),
-			imagemin.svgo({
-				plugins: [
-					{removeViewBox: true},
-					{cleanupIDs: false}
-				]
-			})
+			imagemin.mozjpeg({quality: 95, progressive: true}),
+			imagemin.optipng({optimizationLevel: 1}),
 		]))
-        .pipe(gulp.dest('./build/image'))
+    .pipe(webp({quality: 75}))
+    .pipe(gulp.dest('./build/image'));
 })
 
-
-gulp.task('image', function(){
-  return gulp.src('./source/image/**/*.{png,jpg,svg}')
-  .pipe(webp({quality: 75}))
-  .pipe(gulp.dest('./build/image'));
-})
 
 gulp.task('compressjs', function() {
   gulp.src('./source/js/*.js')
@@ -65,4 +54,4 @@ gulp.task('watch', function(){
     gulp.watch('./source/scss/*.scss',  gulp.parallel('style'))
 })
 
-gulp.task('build', gulp.parallel('fonts', 'style', 'image2', 'image', 'compressjs', 'watch'));
+gulp.task('build', gulp.parallel('fonts', 'style', 'image', 'compressjs', 'watch'));
