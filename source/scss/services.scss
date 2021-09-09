@@ -1,0 +1,73 @@
+.services {
+    background: url(/build/image/services-back.png) center center no-repeat;
+    padding-top: 90px;
+    padding-bottom: 440px;
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+
+        &-link {
+            font-size: 18px;
+            color: #0a0d1d;
+            text-decoration: underline;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &:after {
+            content: "";
+            width: 33%;
+        }
+    }
+
+    &__item {
+        flex: 0 0 360px;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 10px;
+        margin-bottom: 40px;
+
+
+        &-wrap {
+            padding: 10px 15px 20px 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(100, 90, 183, 0.2);
+        }
+
+        &-title {
+            display: inline-block;
+            color: #000;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 20px 0;
+
+            &:hover {
+                color: #645ab7;
+            }
+        }
+
+        &-button {
+            display: inline-block;
+            width: 100%;
+            color: #645ab7;
+            font-weight: 700;
+            border-radius: 6px;
+            border: 1px solid #645ab7;
+            padding: 20px 0;
+            text-align: center;
+
+            &:hover {
+                color: #000;
+                text-decoration: underline;
+            }
+        }
+    }
+
+}

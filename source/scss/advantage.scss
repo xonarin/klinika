@@ -22,13 +22,10 @@
     &__list {
         display: flex;
         flex-wrap: wrap;
-        margin: 0;
-        padding: 0;
     }
 
     &__item {
         flex: 0 0 25%;
-        list-style: none;
         text-align: center;
 
         &-head {

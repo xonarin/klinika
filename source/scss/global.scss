@@ -95,6 +95,11 @@ body{
     color: #000000;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 img {
     display: inline-block;
@@ -134,4 +139,12 @@ a{
         text-transform: uppercase;
     }
     
+}
+
+.section__title {
+    color: #0a0d1d;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 46.88px;
+    margin-bottom: 40px;
 }
