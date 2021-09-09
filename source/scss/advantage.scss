@@ -1,0 +1,63 @@
+.advantage {
+    margin-top: -195px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 90px;
+
+    &-wrap {
+        padding: 55px 60px 85px 60px;
+        background: url('/build/image/advantage-back.png') 0 0 no-repeat;
+        background-size: cover;
+    }
+
+    &__title {
+        color: #0a0d1d;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 200px;
+        margin-bottom: 10px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        flex: 0 0 25%;
+        list-style: none;
+        text-align: center;
+
+        &-head {
+            margin-bottom: 10px;
+        }
+
+
+        &:nth-child(1) img {
+            max-width: 151px;
+        }
+
+        &:nth-child(2) img {
+            max-width: 179px;
+        }
+
+        &:nth-child(3) img {
+            max-width: 161px;
+        }
+
+        &:nth-child(4) img {
+            max-width: 138px;
+        }
+
+        &-desc {
+            color: #000000;
+            font-size: 18px;
+        }
+
+    }
+
+
+}
