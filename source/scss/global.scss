@@ -138,6 +138,11 @@ a{
         font-size: 20px;
         text-transform: uppercase;
     }
+
+    &--submit {
+        border: none;
+        cursor: pointer;
+    }
     
 }
 
@@ -147,4 +152,47 @@ a{
     font-weight: 700;
     line-height: 46.88px;
     margin-bottom: 40px;
+}
+
+.form {
+
+    &__input-wrap {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        width: 100%;
+        color: #000;
+        font-size: 18px;
+        border-radius: 8px;
+        background-color: #f3f4f3;
+        border: none;
+        padding: 20px 0 20px 70px;
+
+        &::placeholder {
+            color: #c4c4c4;
+            font-size: 18px;
+        }
+
+        &-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding: 20px 15px 20px 20px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                display: block;
+                width: 1px;
+                height: 18px;
+                background-color: #c4c4c4;
+            }
+        }
+    }
 }
