@@ -1,11 +1,10 @@
 .formleft {
-    position: relative;
-    top: -305px;
 
     &-wrap {
         background: url('/build/image/form-backright.png') 0 0 no-repeat;
         background-size: cover;
         padding: 70px 200px 80px 540px;
+        margin: -305px 0 100px 0;
     }
 
     &__desc {

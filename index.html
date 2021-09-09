@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="/build/css/index.css">
     <title>Клиника</title>
 </head>
@@ -277,12 +281,81 @@
         </div>
     </section>
 
+    <section class="our-doctors">
+        <div class="container">
+            <div class="section__title our-doctors__title">Наши врачи</div>
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide swiper-doctors">
+                        <div class="swiper-doctors__head">
+                            <img src="/build/image/vrachi.png" alt="">
+                        </div>
+
+                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
+                    
+                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
+                    
+                        <a href="#" class="services__item-button">Узнать подробнее</a>
+                    </div>
+
+                    <div class="swiper-slide swiper-doctors">
+                        <div class="swiper-doctors__head">
+                            <img src="/build/image/vrachi.png" alt="">
+                        </div>
+
+                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
+                    
+                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
+                    
+                        <a href="#" class="services__item-button">Узнать подробнее</a>
+                    </div>
+
+                    <div class="swiper-slide swiper-doctors">
+                        <div class="swiper-doctors__head">
+                            <img src="/build/image/vrachi.png" alt="">
+                        </div>
+
+                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
+                    
+                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
+                    
+                        <a href="#" class="services__item-button">Узнать подробнее</a>
+                    </div>
+
+                    <div class="swiper-slide swiper-doctors">
+                        <div class="swiper-doctors__head">
+                            <img src="/build/image/vrachi.png" alt="">
+                        </div>
+
+                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
+                    
+                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
+                    
+                        <a href="#" class="services__item-button">Узнать подробнее</a>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+    </section>
+
 
 </main>
 
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script src="/build/js/swiperjs-min.js"></script>
+<script src="/build/js/main-min.js "></script>
 
 </body>
 </html>
