@@ -1,0 +1,36 @@
+.about {
+    margin-bottom: 90px;
+
+    &-wrap {
+        display: flex;
+    }
+
+    &__left {
+        flex: 0 0 460px;
+        margin-right: 40px;
+
+        p {
+            font-size: 18px;
+            font-weight: 400; 
+            margin-bottom: 15px;
+        }
+    }
+
+    &__title {
+        color: #0a0d1d;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 46.88px;
+        margin-bottom: 40px;
+    }
+
+    &__right {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 200px;
+        }
+    }
+}
