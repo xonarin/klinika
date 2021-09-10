@@ -208,7 +208,7 @@ a{
   top:0;
 }
 
-.swiper-doctors {
+.swiper-doctors, .swiper-reviews {
     transition:all 200ms linear;
     transform: scale(0.8);
     opacity: .5;
@@ -275,6 +275,64 @@ a{
     width: 28px;
     height: 2px;
     background-color: #7b6fd2;
+}
+
+.swiper-reviews {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+
+    &__wrap {
+        padding: 25px;
+        border-radius: 8px;
+        border: 1px solid rgba(100,90,183,.2);        
+    }
+
+    &__stars {
+        margin-bottom: 10px;
+
+        &-img {
+            width: 18px;
+            margin-right: 5px;
+        }
+    }
+
+    &__date {
+        color: #0a0d1d;
+        font-weight: 700; 
+        margin-bottom: 15px;
+    }
+
+    &__desc {
+        margin-bottom: 40px;
+    }
+
+    &__link {
+        display: inline-block;
+        color: #645ab7;
+        font-weight: 700;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+
+    &__footer {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        margin-right: 15px;
+    }
+
+    &__avatar {
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        color: #0a0d1d; 
+    }
+
 }
 
 /*SWIPER*/
