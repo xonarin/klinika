@@ -5,24 +5,17 @@
 
     &-wrap {
         display: flex;
-        justify-content: space-between;
         align-items: flex-start;
-    }
-
-    &__left {
-        display: flex;
-        align-items: flex-start;
-    }
-
-    &__right {
-        padding-top: 25px;
     }
 
     &__logo {
         display: inline-block;
-        max-width: 209px;
         margin-right: 25px;
         margin-left: -9px;
+
+        &-img {
+            max-width: 209px;
+        }
     }
 
     &__menu {
@@ -76,6 +69,8 @@
 
     &__contact {
         text-align: right;
+        padding-top: 25px;
+        margin-left: auto;
 
         &-phone {
             display: block;
