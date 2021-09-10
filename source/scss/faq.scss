@@ -1,0 +1,15 @@
+.faq {
+    padding-top: 100px;
+    margin-bottom: 150px;
+
+
+    &__title {
+        text-align: center;
+    }
+
+    
+    &-wrap {
+        min-height: 370px;
+        background-color: #ccc;
+    }
+}
