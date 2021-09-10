@@ -1,0 +1,112 @@
+.footer {
+    padding-top: 315px;
+    background-color: #3d3869;
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item {
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &-link {
+            color: #ffffff;  
+            font-size: 18px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #554f8d;
+
+        &-link {
+            display: block;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &-right {
+            color: #fff;
+            text-align: right;
+        }
+
+        &-time {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        &__address {
+            display: flex;
+            align-items: center;
+
+            span {
+                font-size: 18px;
+            }
+        }
+
+        &-maps {
+            width: 72px;
+            margin-right: 7px;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0 40px 0;
+
+        &-sec-link {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
+
+    &__social {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        padding: 9px;
+
+        &--whatsapp {
+            background-color: #6cc163;
+        }
+
+        &--viber {
+            background-color: #713fa4; 
+        }
+
+        &-icon {
+            width: 25px;
+        }
+    }
+}
