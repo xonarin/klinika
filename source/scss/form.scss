@@ -2,10 +2,14 @@
 
     &-wrap {
         position: relative;
-        background: url('/build/image/form-backright.png') 0 0 no-repeat;
+        background: url('/build/image/form-backright.svg') 0 0 no-repeat;
         background-size: cover;
-        padding: 70px 200px 80px 540px;
+        padding: 70px 200px 68px 540px;
         margin: -305px 0 100px 0;
+    }
+
+    &__title {
+        line-height: 46.88px;
     }
 
     &__desc {
@@ -15,20 +19,18 @@
 
     &__woman {
         position: absolute;
-        top: -94px;
+        bottom: 0;
         left: -95px;
         max-width: 576px;
     }
 }
 
 .formright {
-
-
     &-wrap {
         position: relative;
-        background: url('/build/image/form-backleft.png') 0 0 no-repeat;
+        background: url('/build/image/form-backleft.svg') 0 0 no-repeat;
         background-size: cover;
-        padding: 70px 620px 80px 125px;
+        padding: 70px 540px 69px 200px;
         margin: 0 0 -280px 0;
     }
 
@@ -39,7 +41,7 @@
 
     &__woman {
         position: absolute;
-        top: -94px;
+        bottom: 15px;
         right: -16px;
         max-width: 576px;
     }

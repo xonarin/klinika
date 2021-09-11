@@ -1,7 +1,52 @@
 /* Landscape tablets and medium desktops */
-@media only screen and (min-width: 992px) {
-    
+@media only screen and (max-width: 1280px) {
+    .hero__image {
+        right: 0;
+    }
 
+    .formleft__woman {
+        position: absolute;
+        bottom: 0;
+        left: -95px;
+        max-width: 576px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .formleft-wrap {
+        background: #fff;
+        border-radius: 15px;
+        padding: 70px 50px 68px 540px;
+        box-shadow: 0 0 10px 5px rgb(221, 221, 221);
+    }
+
+    .formright-wrap {
+        background: #fff;
+        border-radius: 15px;
+        padding: 70px 540px 68px 50px;
+        box-shadow: 0 0 10px 5px rgb(221, 221, 221);
+    }
+
+    .formright__woman {
+        bottom: -1px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .advantage__title {
+        color: #0a0d1d;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 150px;
+        margin-bottom: 10px;
+    }
+
+
+    
 }
 
 /* Portrait tablets and small desktops */
@@ -35,6 +80,82 @@
         margin-left: 0;
     }
 
+    .hero {
+        top: -185px;
+    }
+
+    .hero__image {
+        max-width: 480px;
+    }
+
+    .advantage {
+        margin-top: -245px;
+    }
+
+    .advantage__title {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .formleft-wrap {
+        padding: 30px 20px 30px 400px;
+    }
+
+    .formright-wrap {
+        padding: 30px 460px 30px 20px;
+    }
+
+    .formleft__title,  .formright__title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .formleft__woman {
+        max-width: 465px;
+    }
+
+    .formright__woman {
+        max-width: 465px;
+    }
+
+
+}
+
+@media only screen and (max-width: 920px) {  
+    .hero-wrap {
+        padding: 295px 0 100px 0;
+    }
+
+    .hero__title {
+        font-size: 43px;
+    }
+
+    .advantage-wrap {
+        padding: 55px 10px 85px 10px;
+    }
+
+    .about-wrap {
+        flex-direction: column;
+    }
+
+    .about__left  {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .about {
+        margin-bottom: 40px;
+    }
+
+    .services {
+        padding-top: 20px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
 
 }
 
@@ -152,12 +273,212 @@
         background-color: #fff;
     }
 
+    .advantage {
+        margin-top: -280px;
+        margin-bottom: 0;
+    }
+
+    .advantage-wrap {
+        padding: 80px 10px 85px 10px;
+    }
+
+    .advantage__item {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+
+    .services__item {
+        flex: 0 0 48%;
+    }
+
+    .services {
+        padding-bottom: 0;
+    }
+
+    .formleft {
+        margin-bottom: 40px;
+    }
+    
+    .formleft-wrap {
+        background: #fff;
+        padding: 20px;
+        margin: 0;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .formright-wrap {
+        background: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .formleft__title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .formleft__desc, .formright__desc {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .formleft__woman, .formright__woman {
+        display: none;
+    }
+
 }
+
+@media only screen and (max-width: 730px) {
+    .hero__title {
+        font-size: 34px;
+    }
+    
+    .hero__title-mini {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .hero__title {
+        font-size: 28px;
+    }
+    
+    .hero__title-mini {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero {
+        background: url(/build/image/hero-back.png) center center no-repeat;
+    }
+
+    .hero__image {
+        display: none;
+    }
+
+    .hero-wrap {
+        padding: 235px 0 100px 0;
+    }
+
+    .hero__title,  .hero__title-mini {
+        text-align: center;
+    }
+
+    .hero__btn {
+        margin: 0 auto;
+    }
+
+    .hero__btn-accept {
+        padding: 0 20px;
+    }
+
+    .advantage__title {
+        font-size: 24px;
+    }
+
+    .about {
+        margin-bottom: 20px;
+    }
+
+    .formleft__title {
+        font-size: 28px;
+    }
+
+    .services {
+        background: url(/build/image/services-back.png) center top no-repeat;
+        background-size: contain;
+    }
+
+    .services__head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .services__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .our-doctors {
+        margin-bottom: 0;
+    }
+
+    .faq {
+        padding-top: 0;
+    }
+
+    .footer__head {
+        flex-direction: column;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer__contact {
+        flex-direction: column;
+    }
+
+    .footer__contact-left {
+        margin-bottom: 10px;
+    }
+
+    .footer__contact-right {
+        text-align: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .footer__bottom-social {
+        margin-bottom: 10px;
+    }
+
+}
+
+
 
 /* Portrait phones and smaller */
 @media only screen and (max-width: 480px) {
 
 }
+
+@media only screen and (max-width: 380px) {
+    .advantage {
+        margin-top: -250px;
+    }
+
+    .advantage-wrap {
+        background: #fff;
+        padding: 20px 10px 85px 10px;
+        border-radius: 30px;
+    }
+
+
+    .advantage__title {
+        font-size: 19px;
+    }
+
+    .advantage__item {
+        flex: 0 0 100%;
+    }
+
+    .footer__contact-maps {
+        display: none;
+    }
+}
+
 
 /* Iphone 5 */
 @media only screen and (max-width: 320px) {

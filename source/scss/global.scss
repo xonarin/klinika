@@ -150,7 +150,6 @@ a{
     color: #0a0d1d;
     font-size: 54px;
     font-weight: 700;
-    line-height: 46.88px;
     margin-bottom: 40px;
 }
 
@@ -198,7 +197,7 @@ a{
 }
 
 /*SWIPER*/
-.swiper-container {
+.swiper-container, .swiper-container-doctors {
     position:relative;
     width: 100%;
     overflow: hidden;

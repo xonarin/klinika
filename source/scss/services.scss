@@ -22,14 +22,11 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
-        &:after {
-            content: "";
-            width: 33%;
-        }
     }
 
     &__item {
-        flex: 0 0 360px;
+        flex: 0 0 33%;
+        max-width: 360px;
         background-color: #fff;
         border-radius: 12px;
         padding: 10px;
@@ -37,6 +34,10 @@
 
 
         &-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
             padding: 10px 15px 20px 15px;
             border-radius: 8px;
             border: 1px solid rgba(100, 90, 183, 0.2);
@@ -47,6 +48,7 @@
             color: #000;
             font-size: 24px;
             font-weight: 700;
+            word-break: break-all;
             margin: 20px 0;
 
             &:hover {

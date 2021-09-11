@@ -3,6 +3,7 @@
 
     &-wrap {
         display: flex;
+        align-items: flex-end;
     }
 
     &__left {
@@ -21,8 +22,8 @@
         display: flex;
         justify-content: space-between;
 
-        img {
-            width: 200px;
+        &-images {
+            flex: 0 0 30%;
         }
     }
 }
