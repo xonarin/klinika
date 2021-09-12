@@ -1,6 +1,6 @@
 //Slider
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
   // Assign some jquery elements we'll need
   var $swiper = $(".swiper-container");
   var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
@@ -48,7 +48,7 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
   // Assign some jquery elements we'll need
   var $swiper = $(".swiper-container-doctors");
   var $bottomSlide = null; // Slide whose content gets 'extracted' and placed

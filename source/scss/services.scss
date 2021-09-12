@@ -4,6 +4,15 @@
     padding-top: 90px;
     padding-bottom: 440px;
 
+    &--uslugi {
+        position: relative;
+        top: -122px;
+        left: 0;
+        right: 0; 
+        padding-top: 205px;
+        padding-bottom: 0;
+    }
+
     &__head {
         display: flex;
         justify-content: space-between;
@@ -71,6 +80,11 @@
                 text-decoration: underline;
             }
         }
+
+    }
+
+    &-more__wrap {
+        text-align: center;
     }
 
 }

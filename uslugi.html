@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="/build/css/index.css">
     <title>Клиника</title>
 </head>
@@ -57,112 +60,10 @@
 </header>
 
 <main>
-    <section class="hero">
-        <div class="container">
-            <div class="hero-wrap">
-                <div class="hero__title">Большой выбор <br> медицинских услуг в Уфе</div>
-                <div class="hero__title-mini">Мы позаботимся о вашем здоровье</div>
-            
-
-                <div class="hero__btn">
-                    <a href="#" class="btn btn--hero">Записаться на прием</a>
-
-                    <span class="hero__btn-accept">Отправляя данную форму, я даю согласие на обработку персональных данных</span>
-                </div>
-
-                <div class="hero__image">
-                    <img src="/build/image/hero-woman.png" alt="Медицинские услуги в Уфе" class="hero__image-woman">
-                </div>
-            
-            </div>
-        </div>
-    </section>
-
-    <section class="advantage">
-        <div class="container">
-            <div class="advantage-wrap">
-                <div class="advantage__title">Мы предоставляем большой спектр медицинских услуг и вот в чем наши преимущества</div>
-            
-                <ul class="advantage__list">
-                    <li class="advantage__item">
-                        <div class="advantage__item-head">
-                            <img src="/build/image/advantage1.png" alt="" class="advantage__image">
-                        </div>
-
-                        <div class="advantage__item-desc">
-                            Абсолютно бесплатно<br> проведем первичную<br> консультацию со<br> специалистами клиники
-                        </div>
-                    </li>
-
-                    <li class="advantage__item">
-                        <div class="advantage__item-head">
-                            <img src="/build/image/advantage2.png" alt="" class="advantage__image">
-                        </div>
-
-                        <div class="advantage__item-desc">
-                            Подберем<br> индивидуальный<br> план лечения
-                        </div>
-                    </li>
-
-                    <li class="advantage__item">
-                        <div class="advantage__item-head">
-                            <img src="/build/image/advantage3.png" alt="" class="advantage__image">
-                        </div>
-
-                        <div class="advantage__item-desc">
-                            Назовем точную конечную<br> цену именно вашего<br> лечения
-                        </div>
-                    </li>
-
-                    <li class="advantage__item">
-                        <div class="advantage__item-head">
-                            <img src="/build/image/advantage4.png" alt="" class="advantage__image">
-                        </div>
-
-                        <div class="advantage__item-desc">
-                            Гарантируем скидку 5%<br> на наши услуги при записи<br> онлайн
-                        </div>
-                    </li>
-
-                </ul>
-            
-            </div>
-        </div>
-    </section>
-
-    <section class="about">
-        <div class="container">
-            <div class="about-wrap">
-                <div class="about__left">
-                    <div class="section__title">О клинике</div>
-
-                    <p>Задача организации, в особенности же начало повседневной работы по формированию позиции создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса благоприятных перспектив.</p>
-                    <p>Задача организации, в особенности же начало повседневной работы по формированию позиции создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса благоприятных перспектив.</p>
-                </div>
-
-                <div class="about__right">
-                    <div class="about__right-images">
-                        <img src="/build/image/about1.png" alt="" class="about__right-img">
-                    </div>
-
-                    <div class="about__right-images">
-                        <img src="/build/image/about2.png" alt="" class="about__right-img">
-                    </div>
-
-                    <div class="about__right-images">
-                        <img src="/build/image/about3.png" alt="" class="about__right-img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="services">
+    <section class="services services--uslugi">
         <div class="container">
             <div class="services__head">
                 <div class="section__title">Услуги</div>
-
-                <a href="#" class="services__head-link">Перейти ко всем услугам</a>
             </div>
 
             <ul class="services__list">
@@ -251,106 +152,15 @@
                 </li>
 
             </ul>
-        </div>
-    </section>
 
-    <section class="formleft">
-        <div class="container">
-            <div class="formleft-wrap">
-                <div class="section__title formleft__title">Оставить заявку на прием</div>
-
-                <div class="formleft__desc">Заполните форму, наш консультант перезвонит вам в течении часа</div>
-
-                <form action="#" class="form">
-                    <div class="form__input-wrap">
-                        <input class="form__input" type="tel" name="tel" id="inputtel" placeholder="Введите ваш телефон">
-
-                        <label for="inputtel" class="form__input-icon">
-                            <img src="/build/image/input-phone.png" alt="" class="input-icon__img">
-                        </label>
-                    </div>
-
-                    <div class="form__input-wrap">
-                        <input class="form__input" type="text" name="name" id="inputphone" placeholder="Введите ваше имя">
-
-                        <label for="inputphone" class="form__input-icon">
-                            <img src="/build/image/input-people.png" alt="" class="input-icon__img">
-                        </label>
-                    </div>
-
-                    <button class="btn btn--submit" type="submit">Отправить заявку</button>
-                </form>
-
-                <img src="/build/image/big-womanleft.png" alt="" class="formleft__woman">
+            <div class="services-more__wrap">
+                <a href="#" class="btn btn--services services-more">Показать все услуги</a>
             </div>
         </div>
     </section>
 
-    <section class="our-doctors">
-        <div class="container">
-            <div class="section__title our-doctors__title">Наши врачи</div>
 
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide swiper-doctors">
-                        <div class="swiper-doctors__head">
-                            <img src="/build/image/vrachi.png" alt="">
-                        </div>
-
-                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
-                    
-                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
-                    
-                        <a href="#" class="services__item-button">Узнать подробнее</a>
-                    </div>
-
-                    <div class="swiper-slide swiper-doctors">
-                        <div class="swiper-doctors__head">
-                            <img src="/build/image/vrachi.png" alt="">
-                        </div>
-
-                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
-                    
-                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
-                    
-                        <a href="#" class="services__item-button">Узнать подробнее</a>
-                    </div>
-
-                    <div class="swiper-slide swiper-doctors">
-                        <div class="swiper-doctors__head">
-                            <img src="/build/image/vrachi.png" alt="">
-                        </div>
-
-                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
-                    
-                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
-                    
-                        <a href="#" class="services__item-button">Узнать подробнее</a>
-                    </div>
-
-                    <div class="swiper-slide swiper-doctors">
-                        <div class="swiper-doctors__head">
-                            <img src="/build/image/vrachi.png" alt="">
-                        </div>
-
-                        <div class="swiper-doctors__title">Иванова Татьяна Петровна</div>
-                    
-                        <div class="swiper-doctors__title--mini">Врач-стоматолог</div>
-                    
-                        <a href="#" class="services__item-button">Узнать подробнее</a>
-                    </div>
-                </div>
-
-                <div class="swiper-pagination"></div>
-
-            <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="reviews">
+    <section class="reviews reviews--uslugi">
         <div class="container">
             <div class="section__title our-doctors__title">Отзывы</div>
 

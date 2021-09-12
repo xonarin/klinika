@@ -143,6 +143,10 @@ a{
         border: none;
         cursor: pointer;
     }
+
+    &--services {
+        max-width: 360px;
+    }
     
 }
 

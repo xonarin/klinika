@@ -1,0 +1,91 @@
+.services-single {
+    margin-bottom: 150px;
+    margin-top: 90px;
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__left {
+        width: 100%;
+        max-width: 390px;
+        margin-right: 20px;
+    }
+
+    &__left, &__right {
+        height: 915px;
+    }
+
+    &__content {
+        padding: 60px;
+        border-radius: 12px;
+    }
+
+    &__left {
+        overflow: hidden;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            width: 10px;               /* ширина scrollbar */
+        }
+
+        &::-webkit-scrollbar-track {
+         background: #fff;        /* цвет дорожки */
+        }
+        
+        &::-webkit-scrollbar-thumb {
+        height: 120px;
+        background: linear-gradient(180deg,#a59bed 0,#7b6fd2 53%,#645ab7 100%);    /* цвет плашки */
+        border-radius: 7px;       /* закругления плашки */
+        }
+    }
+
+    &__right {
+        box-shadow: 0 0 10px 5px #ddd;
+        overflow: hidden;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            width: 10px;               /* ширина scrollbar */
+        }
+
+        &::-webkit-scrollbar-track {
+         background: #fff;        /* цвет дорожки */
+        }
+        
+        &::-webkit-scrollbar-thumb {
+        height: 120px;
+        background: linear-gradient(180deg,#a59bed 0,#7b6fd2 53%,#645ab7 100%);    /* цвет плашки */
+        border-radius: 7px;       /* закругления плашки */
+        }
+    }
+
+    &__menu {
+        max-width: 360px;
+        padding: 10px 20px 10px 10px;
+
+        &-item {
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px 5px #ddd;
+        }
+
+        &-link {
+            display: inline-block;
+            width: 100%;
+            padding: 20px 0 25px 20px;
+            font-size: 20px;
+            color: #0a0d1d;
+            background-color: #ffffff;
+
+            &:hover, .active &  {
+                color: #fff;
+                background: linear-gradient(180deg,#a59bed 0,#7b6fd2 53%,#645ab7 100%);
+            }
+        }
+    }
+
+    &__title {
+        margin-top: 0;
+    }
+}
