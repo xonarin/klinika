@@ -11,7 +11,9 @@
         max-width: 576px;
     }
 
-
+    .specialist__content-before {
+        right: -33px;
+    }
 
 }
 
@@ -32,6 +34,13 @@
 
     .formright__woman {
         bottom: -1px;
+    }
+
+    .contact-wrap {
+        border-radius: 10px;
+        background: unset;
+        min-height: auto;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
     }
 }
 
@@ -127,6 +136,14 @@
         margin-top: -180px;
     }
 
+    .reviews--contentnonemargin {
+        margin-top: 0;
+    }
+
+    .specialist__content {
+        padding: 30px 50px 30px 30px;
+    }
+
 
 }
 
@@ -168,6 +185,39 @@
     .swiper-button-next, .swiper-button-prev {
         width: 30px;
         height: 30px;
+    }
+
+    .services-single__menu {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .services-single__menu-item  {
+        flex: 0 0 45%; 
+    }
+
+    .services-single__right {
+        height: 100%;
+        padding: 30px 0 0 0;
+        margin: 0 0px 10px 10px;
+        overflow-y: hidden;
+    }
+
+    .services-single__left {
+        max-width: 100%;
+        height: 265px;
+        margin-bottom: 40px;
+    }
+
+    .services-single__wrap {
+        flex-direction: column;
+    }
+
+    .contact-wrap {
+        flex-direction: column;
+        padding: 30px;
     }
 
 }
@@ -341,30 +391,31 @@
         display: none;
     }
 
-    .services-single__wrap {
+
+    .specialist__content {
         flex-direction: column;
     }
 
-    .services-single__left {
+    .specialist__content-left {
+        margin-bottom: 20px;
+    }
+
+    .services-single__content {
+        padding: 15px;
+    }
+
+    .contact-wrap {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact__left {
         max-width: 100%;
-        height: 265px;
+        order: 2;
     }
 
-    .services-single__menu {
-        max-width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .services-single__menu-item  {
-        flex: 0 0 45%; 
-    }
-
-    .services-single__right {
-        height: 100%;
-        padding: 30px 0 0 0;
-        overflow-y: hidden;
+    .contact__right {
+        margin-bottom: 20px;
     }
 
 }
@@ -486,6 +537,14 @@
 
     .services-single__menu-item  {
         flex: 0 0 100%; 
+    }
+
+    .specialist__content {
+        padding: 15px;
+    }
+
+    .specialist__content-before {
+        max-width: 140px;
     }
 
 }

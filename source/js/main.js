@@ -96,8 +96,30 @@ jQuery(document).ready(function() {
   });
 });
 
-
-
+jQuery(document).ready(function() {
+  var swiper = new Swiper(".specialist__swiper", {
+    slidesPerView: 3,
+    autoHeight: true,
+    spaceBetween: 40,
+    navigation: {
+      nextEl: ".specialist__next",
+      prevEl: ".specialist__prev"
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+      },
+      480: {
+        slidesPerView: 1
+      },
+      // when window width is >= 640px
+      768: {
+        slidesPerView: 3,
+      }
+    }
+  });
+});
 
 //Menu
 let button = document.querySelector(".burger__menu");

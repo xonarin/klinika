@@ -1,0 +1,129 @@
+.specialist {
+    margin: 90px 0 130px 0;
+ 
+    &__navigation {
+        display: flex;
+        margin-bottom: 20px;
+
+        &-icon {
+            width: 6px;
+            height: 9px;
+        }
+    }
+
+    &__prev, &__next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background-color: #ffffff; 
+        box-shadow: 0 0 5px 2px #ddd;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    &__prev {
+        margin-right: 20px;
+    }
+
+    &__list {
+        margin-bottom: 40px;
+        padding: 20px 10px;
+        overflow: hidden;
+    }
+
+    &__item {
+        align-items: center;
+        display: flex;
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 0 5px 2px #ddd;
+        border-radius: 4px;
+        background-color: #fff;
+        cursor: pointer;
+
+        &-wrap {
+            display: flex;
+            align-items: center;
+        }
+
+        &:hover {
+            background-color: #645ab7;
+        }
+    }
+
+    &__left {
+        width: 60px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    &__name {
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 5px;
+
+       .specialist__item:hover &{
+            color: #fff;
+        }
+    }
+
+    &__profession {
+        color: #777;
+        font-size: 14px;
+
+        .specialist__item:hover &{
+            color: #fff;
+        }
+    }
+
+    &__content {
+        position: relative;
+        display: flex;
+        padding: 60px 100px 60px 60px;
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 0 0 5px 2px #ddd;
+
+        &-left {
+            width: 100%;
+            max-width: 360px;
+            margin-right: 40px;
+        }
+
+        &-img {
+            border-radius: 8px;
+        }
+
+        &-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &-profession {
+            color: #777777;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        &-desc {
+            color: #777777;
+            font-family: UniNeue,Arial,sans-serif!important;
+            font-size: 18px;
+        }
+
+        &-before {
+            position: absolute;
+            top: -13px;
+            right: -72px;
+        }
+    }
+
+    &__swiper-wrapper {
+        align-items: stretch!important;
+    }
+
+}
